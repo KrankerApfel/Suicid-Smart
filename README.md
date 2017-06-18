@@ -41,4 +41,4 @@ PS : option scrollbars bug because of my shader, use input box to change volume
 
 # Screens
 
-![alt text](http://imgur.com/OfAOwdR)
+![alt text](https://raw.githubusercontent.com/KrankerApfel/Suicid-Smart/master/screen_capture/settings.png)
