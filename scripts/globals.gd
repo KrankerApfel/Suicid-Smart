@@ -22,6 +22,8 @@ onready var theme_menu = load("res://assets/audios/theme_menu.ogg")
 onready var theme_inGame = load("res://assets/audios/theme_Game.ogg")
 onready var theme_gameOver = load("res://assets/audios/theme_GameOver.ogg")
 
+## TRANSITIONS
+onready var Transition = get_node("CanvasLayer/Transition")
 func get_volume_SFX() : return volume_SFX
 func get_volume_Music() : return volume_Music
 func set_volume_SFX(v) : 

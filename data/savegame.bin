@@ -1,0 +1,3 @@
+{"path":"res://levels/level1.xml", "name":"lvl 1", "locked":false}
+{"path":"res://levels/level2.xml", "name":"lvl 2", "locked":false}
+{"path":"res://levels/level3.xml", "name":"lvl 3", "locked":true}

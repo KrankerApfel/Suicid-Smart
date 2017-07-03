@@ -26,8 +26,12 @@ func _on_Fullscreen_toggled( pressed ): OS.set_window_fullscreen(pressed)
 
 func _on_Shader_toggled( pressed ): 
 	if pressed : 
-		Main.get_node("CRT/TextureFrame").show()
-		Main.get_node("CRT/Border").hide()
+		CRT.get_node("CRT/TextureFrame").show()
+		CRT.get_node("CRT/Border").hide()
 	else : 
-		Main.get_node("CRT/TextureFrame").hide()
-		Main.get_node("CRT/Border").show()
+		CRT.get_node("CRT/TextureFrame").hide()
+		CRT.get_node("CRT/Border").show()
+
+
+func _on_Rmode_toggled( pressed ):
+	pass # replace with function body
