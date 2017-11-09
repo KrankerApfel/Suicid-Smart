@@ -4,6 +4,7 @@ This is the remake of my Blueberry jam 2017 game !
 
 # Licence
 ![alt text](https://github.com/KrankerApfel/Suicid-Smart/blob/master/assets/graphics/cc.png)
+
 I use the Henrique Alves CRT shader (MIT licence)
 
 feel free to use this source code but not asset please !
