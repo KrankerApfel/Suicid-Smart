@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="25" version="2.1" version_name="Godot Engine v2.1.4.stable.official">
+	<ext_resource path="res://tilesets/assets/Brick_B_cornerA3.png" type="Texture" index="14"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_B_Up.png" type="Texture" index="11"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_B_cornerA4.png" type="Texture" index="13"></ext_resource>
+	<ext_resource path="res://tilesets/assets/pierevio.png" type="Texture" index="22"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_B_Empt.png" type="Texture" index="21"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_B_Right.png" type="Texture" index="12"></ext_resource>
+	<ext_resource path="res://tilesets/assets/block3.png" type="Texture" index="1"></ext_resource>
+	<ext_resource path="res://tilesets/assets/block.png" type="Texture" index="2"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_V_Right.png" type="Texture" index="3"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_V_Top.png" type="Texture" index="5"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_B_cornerA2.png" type="Texture" index="15"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_V_Down.png" type="Texture" index="4"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_B_cornerB4.png" type="Texture" index="17"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_B_cornerB1.png" type="Texture" index="20"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_V_Empt.png" type="Texture" index="7"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_B_cornerB2.png" type="Texture" index="19"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_B_cornerA1.png" type="Texture" index="16"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_B_Left.png" type="Texture" index="9"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_B_Full.png" type="Texture" index="8"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_B_Down.png" type="Texture" index="10"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_V_Left.png" type="Texture" index="6"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Brick_B_cornerB3.png" type="Texture" index="18"></ext_resource>
+	<ext_resource path="res://tilesets/assets/Block (2).png" type="Texture" index="0"></ext_resource>
+	<resource type="RectangleShape2D" path="local://3">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 8, 8 </vector2>
+
+	</resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "names" </string>
+			<string_array  len="48">
+				<string> "Node2D" </string>
+				<string> "Block1" </string>
+				<string> "editor/display_folded" </string>
+				<string> "transform/pos" </string>
+				<string> "texture" </string>
+				<string> "__meta__" </string>
+				<string> "Sprite" </string>
+				<string> "StaticBody2D" </string>
+				<string> "visibility/visible" </string>
+				<string> "input/pickable" </string>
+				<string> "shapes/0/shape" </string>
+				<string> "shapes/0/transform" </string>
+				<string> "shapes/0/trigger" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
+				<string> "constant_linear_velocity" </string>
+				<string> "constant_angular_velocity" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
+				<string> "CollisionShape2D" </string>
+				<string> "shape" </string>
+				<string> "trigger" </string>
+				<string> "_update_shape_index" </string>
+				<string> "Block2" </string>
+				<string> "exit" </string>
+				<string> "centered" </string>
+				<string> "modulate" </string>
+				<string> "Exit" </string>
+				<string> "Brick_V_Right" </string>
+				<string> "Brick_V_Down" </string>
+				<string> "Brick_V_Up 2" </string>
+				<string> "Brick_V_Left" </string>
+				<string> "Brick_V_Empt" </string>
+				<string> "Brick_B_Full" </string>
+				<string> "Brick_B_Left" </string>
+				<string> "Brick_B_Up" </string>
+				<string> "Brick_B_Down" </string>
+				<string> "Brick_B_Right" </string>
+				<string> "Brick_B_cornerA4" </string>
+				<string> "Brick_B_cornerA3" </string>
+				<string> "Brick_B_cornerA2" </string>
+				<string> "Brick_B_cornerA1" </string>
+				<string> "Brick_B_cornerB4" </string>
+				<string> "Brick_B_cornerB3" </string>
+				<string> "Brick_B_cornerB2" </string>
+				<string> "Brick_B_cornerB1" </string>
+				<string> "Brick_B_Empt" </string>
+				<string> "Test" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 29 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="465"> 				-1, -1, 0, 0, -1, 0, 0, 0, 0, 6, 1, -1, 4, 2, 0, 3, 1, 4, 2, 5, 3, 0, 1, 0, 7, 7, -1, 12, 8, 4, 9, 4, 10, 5, 11, 6, 12, 4, 13, 7, 14, 7, 15, 8, 16, 9, 17, 10, 18, 9, 5, 11, 0, 2, 0, 19, 19, -1, 5, 8, 4, 20, 5, 21, 4, 22, 12, 5, 13, 0, 0, 0, 6, 23, -1, 4, 2, 0, 3, 14, 4, 15, 5, 16, 0, 4, 0, 7, 7, -1, 13, 8, 4, 3, 17, 9, 4, 10, 5, 11, 6, 12, 4, 13, 7, 14, 7, 15, 8, 16, 9, 17, 10, 18, 9, 5, 18, 0, 5, 0, 19, 19, -1, 5, 8, 4, 20, 5, 21, 4, 22, 12, 5, 19, 0, 0, 0, 6, 24, -1, 5, 3, 20, 4, 21, 25, 4, 26, 22, 5, 23, 0, 0, 0, 6, 27, -1, 3, 3, 24, 25, 4, 5, 25, 0, 0, 0, 6, 28, -1, 4, 3, 26, 4, 27, 25, 4, 5, 28, 0, 0, 0, 6, 29, -1, 4, 3, 29, 4, 30, 25, 4, 5, 31, 0, 0, 0, 6, 30, -1, 4, 3, 32, 4, 33, 25, 4, 5, 34, 0, 0, 0, 6, 31, -1, 4, 3, 35, 4, 36, 25, 4, 5, 37, 0, 0, 0, 6, 32, -1, 4, 3, 38, 4, 39, 25, 4, 5, 40, 0, 0, 0, 6, 33, -1, 4, 3, 41, 4, 42, 25, 4, 5, 43, 0, 0, 0, 6, 34, -1, 4, 3, 44, 4, 45, 25, 4, 5, 46, 0, 0, 0, 6, 35, -1, 4, 3, 47, 4, 48, 25, 4, 5, 49, 0, 0, 0, 6, 36, -1, 4, 3, 50, 4, 51, 25, 4, 5, 52, 0, 0, 0, 6, 37, -1, 4, 3, 53, 4, 54, 25, 4, 5, 55, 0, 0, 0, 6, 38, -1, 4, 3, 56, 4, 57, 25, 4, 5, 58, 0, 0, 0, 6, 39, -1, 4, 3, 59, 4, 60, 25, 4, 5, 61, 0, 0, 0, 6, 40, -1, 4, 3, 62, 4, 63, 25, 4, 5, 64, 0, 0, 0, 6, 41, -1, 4, 3, 65, 4, 66, 25, 4, 5, 67, 0, 0, 0, 6, 42, -1, 4, 3, 68, 4, 69, 25, 4, 5, 70, 0, 0, 0, 6, 43, -1, 4, 3, 71, 4, 72, 25, 4, 5, 73, 0, 0, 0, 6, 44, -1, 4, 3, 74, 4, 75, 25, 4, 5, 76, 0, 0, 0, 6, 45, -1, 4, 3, 77, 4, 78, 25, 4, 5, 79, 0, 0, 0, 6, 46, -1, 4, 3, 80, 4, 81, 25, 4, 5, 82, 0, 0, 0, 6, 47, -1, 4, 3, 83, 4, 84, 25, 4, 5, 85, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="86" shared="false">
+				<bool> True </bool>
+				<vector2> 8.18251, 8.05717 </vector2>
+				<resource  external="0">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<bool> False </bool>
+				<resource  resource_type="Shape2D" path="local://3">  </resource>
+				<matrix32> 1, -0, 0, 1, 0, 0 </matrix32>
+				<int> 1 </int>
+				<vector2> 0, 0 </vector2>
+				<real> 0 </real>
+				<real> 1 </real>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<int> 0 </int>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 24.3212, 8.04935 </vector2>
+				<resource  external="1">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 0.0338669, 0.0338631 </vector2>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 48.4898, 0.17384 </vector2>
+				<resource  external="2">  </resource>
+				<color> 0, 0.819092, 0.953125, 1 </color>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 191.852, -0.470882 </vector2>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 48.1294, 16.2051 </vector2>
+				<resource  external="3">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 32.1352, 32.0482 </vector2>
+				<resource  external="4">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 32.4272, 0.221523 </vector2>
+				<resource  external="5">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 16.2125, 16.0094 </vector2>
+				<resource  external="6">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 32.1926, 16.0522 </vector2>
+				<resource  external="7">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 96.6284, 0.235114 </vector2>
+				<resource  external="8">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 112.625, 16.1943 </vector2>
+				<resource  external="9">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 128.549, 0.285307 </vector2>
+				<resource  external="10">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 128.707, 32.2197 </vector2>
+				<resource  external="11">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 144.5, 16.2898 </vector2>
+				<resource  external="12">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 144.576, 0.263746 </vector2>
+				<resource  external="13">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 144.48, 32.3164 </vector2>
+				<resource  external="14">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 112.629, 32.2005 </vector2>
+				<resource  external="15">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 112.613, 0.307295 </vector2>
+				<resource  external="16">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 64.6488, 16.1181 </vector2>
+				<resource  external="17">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 80.5965, 16.0819 </vector2>
+				<resource  external="18">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 80.6298, 0.158369 </vector2>
+				<resource  external="19">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 64.6102, 0.149611 </vector2>
+				<resource  external="20">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 96.5806, 16.202 </vector2>
+				<resource  external="21">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 160.648, 0.231848 </vector2>
+				<resource  external="22">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+			</array>
+			<string> "version" </string>
+			<int> 2 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>

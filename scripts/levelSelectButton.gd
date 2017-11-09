@@ -16,4 +16,8 @@ func set_locked(locked):
 	lock.set_hidden(!locked)
 
 func _on_TextureButton_pressed():
-	if self.path != "" : globals.Transition.fade_to(path)
+	get_node("../../../Settings").canCall = true
+	globals.set_state(globals.IN_GAME)
+	if self.path != "" : 
+		#globals.set_current_scene(path)
+		globals.Transition.fade_to(path)

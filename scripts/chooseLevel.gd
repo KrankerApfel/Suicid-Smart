@@ -8,7 +8,6 @@ func _ready(): load_grid()
 
 func load_grid() : 
 	var data = LevelManager.load_game()
-	print(data)
 	for c in range(data.size() - 1) :
 			var btn = load("res://scenes/levelSelectButton.xml").instance()
 			grid.add_child(btn)

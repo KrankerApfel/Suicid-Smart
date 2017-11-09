@@ -1,12 +1,15 @@
 extends CanvasLayer
-
 onready var TITLE = 0
 onready var SETTINGS = 1
 onready var GAME_OVER = 2
 onready var CHOOSE_LEVEL = 3
 onready var title = get_node("Title")
 func _ready():
+	if !(globals.Streamer.is_playing()): globals.Streamer.play()
+	if globals.CRT_activated: CRT.get_node("CRT/TextureFrame").show()
 	call_menu(globals.get_state())
+	get_node("Settings/CanvasLayer/VBoxContainer/Back button").connect("pressed",self,"_on_Back_button_pressed")
+	get_node("Settings").canCall = false
 	
 func call_menu(name) :
 	globals.set_state(name)
@@ -56,10 +59,12 @@ func _on_Label1_pressed():
 	if globals.get_state() == 0 : 
 		globals.Transition.fade_to("res://scenes/MenuScene.xml", SETTINGS)
 	if globals.get_state() == 2 : 
-		#Transition.fade_tp("res://scenes/MenuScene.xml", globals.get_state() = TITLE)
 		globals.Transition.fade_to("res://scenes/MenuScene.xml", TITLE)
 
-func _on_Label2_pressed(): OS.get_main_loop().quit()
+func _on_Label2_pressed(): globals.get_node("CanvasLayer/QUIT").show();
 func _on_Back_button_pressed():
 	if globals.get_state() or globals.get_state() == 3 :
+		globals.set_state(globals.TITLE)
+		globals.set_current_scene("res://scenes/MenuScene.xml")
 		globals.Transition.fade_to("res://scenes/MenuScene.xml", TITLE)
+
