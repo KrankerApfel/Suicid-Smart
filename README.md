@@ -3,7 +3,7 @@
 This is the remake of my Blueberry jam 2017 game !
 
 # Licence
-![alt text](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.pngL)
+![alt text](https://github.com/KrankerApfel/Suicid-Smart/blob/master/assets/graphics/cc.png)
 I use the Henrique Alves CRT shader (MIT licence)
 
 feel free to use this source code but not asset please !
@@ -18,7 +18,9 @@ Musician : Firipu Kurokei
 Ayushman Bilas Thakur helped to design the prototype
 
 # Work in progress : 
+Follow the devlog on itch.io : https://kranker-apfel.itch.io/suicid-smart/devlog/14348/suicid-smart-remake-begins
 [18.06.2017] Menu scene and settings : done 
+[09.11.2017] Data saving and lock/unlock levels systems : done
 
 # About the game
 
@@ -41,4 +43,4 @@ PS : option scrollbars bug because of my shader, use input box to change volume
 
 # Screens
 
-![alt text](https://raw.githubusercontent.com/KrankerApfel/Suicid-Smart/master/screen_capture/settings.png)
+![alt text](https://img.itch.zone/aW1hZ2UvMTUwNTIxLzY4OTMxMC5wbmc=/original/jfUddq.png)
