@@ -19,7 +19,6 @@ Musician : Firipu Kurokei
 Ayushman Bilas Thakur helped to design the prototype
 
 # Work in progress : 
-Follow the devlog on itch.io : https://kranker-apfel.itch.io/suicid-smart/devlog/14348/suicid-smart-remake-begins
 [18.06.2017] Menu scene and settings : done 
 [09.11.2017] Data saving and lock/unlock levels systems : done
 
